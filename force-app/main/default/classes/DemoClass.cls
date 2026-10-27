@@ -9,4 +9,9 @@ public class DemoClass {
     public static String getGreeting(String name) {
         return 'Hello, ' + name + '! Welcome to Salesforce.';
     }
+
+    // Method 3: Multiply two numbers
+    public static Integer multiplyNumbers(Integer a, Integer b) {
+        return a * b;
+    }
 }
